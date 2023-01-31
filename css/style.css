@@ -1,4 +1,9 @@
 :root {
+    /*---Fonts*/
+
+    --main-font-roboto: 'Roboto', sans-serif;
+    --main-font-raleway: 'Raleway', sans-serif;
+
     --body-background-color: #ffffff;
     --slate-color: #434455;
     --navy-blue-color: #2E2F42;
@@ -9,7 +14,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family:var(--main-font-roboto);
     color: var(--navy-blue-color);
     background-color: var(--body-background-color);
 }
@@ -33,10 +38,10 @@ img {
     display: block;
 }
 
-/* Logo */
+/*---------Logo---------*/
 .logo-part-one {
     color: var(--iris-color);
-    font-family: Raleway;
+    font-family: var(--main-font-raleway);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -58,7 +63,7 @@ img {
     border-bottom: 1px solid var(--cornflower-color);
 }
 
-/* Navigation */
+/*---------Navigation-----------*/
 .navigation {
     display: flex;
     align-items: center;
@@ -73,7 +78,7 @@ img {
     color: var(--ocean-color);
 }
 
-/* Menu */
+/*-----Menu---------*/
 .menu {
     display: flex;
     align-items: center;
@@ -212,7 +217,7 @@ img {
     flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
-/* Our Teams Section */
+/*-----Teams Section-----*/
 .team {
     background-color: var(--cloud-color);
 }
@@ -230,7 +235,7 @@ img {
 }
 
 /* Portfolio Section */
-/* Filter */
+
 .filter-btn {
     font-size: 16px;
     color: var(--iris-color);
@@ -329,7 +334,7 @@ img {
     margin: -1px;
 }
 
-/* ========== */
+/*------------*/
 .container {
     width: 1158px;
     padding-left: 15px;
